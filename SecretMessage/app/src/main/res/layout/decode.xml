@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:orientation="vertical" 
+android:background="@drawable/bg"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:padding="10dip"
+>
+	<TextView 
+	android:text="@string/key" 
+	android:id="@+id/key" 
+	android:textSize="24px"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textColor="#ffffffff">
+	</TextView>
+	<EditText 
+	android:id="@+id/keyinput" 
+	android:maxLines ="2" 
+	android:hint="please input"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+	</EditText>
+	<TextView 
+	android:text="@string/message" 
+	android:id="@+id/message" 
+	android:textSize="24px"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textColor="#ffffffff">
+	</TextView>
+	<TextView 
+	android:id="@+id/nameanddate" 
+	android:layout_width="fill_parent" 
+	android:textSize="24px"
+	android:layout_height="wrap_content"
+	android:gravity="left"
+	android:textColor="#ffccffff">
+	</TextView>
+	<EditText
+	android:hint="please input"
+	android:id="@+id/messageinput" 
+	android:layout_width="fill_parent" 
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:gravity="top">
+	</EditText>
+	<TableLayout
+	    android:id ="@+id/menu_table"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:shrinkColumns="*" 
+	>
+	<TableRow
+		android:id ="@+id/menu_tableRow"
+		android:gravity="center"
+	>
+		<ImageButton 
+		android:id="@+id/decode" 
+		android:src="@drawable/key"
+		android:adjustViewBounds="true"
+		android:scaleType="fitCenter"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		</ImageButton>
+		<ImageButton 
+		android:id="@+id/encode" 
+		android:src="@drawable/lock"
+		android:adjustViewBounds="true"
+		android:scaleType="fitCenter"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		</ImageButton>
+		<ImageButton 
+		android:id="@+id/send" 
+		android:src="@drawable/send"
+		android:adjustViewBounds="true"
+		android:scaleType="fitCenter"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		</ImageButton>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

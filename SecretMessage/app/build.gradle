@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+String[] readKeyAndPwd(String keyPwdFile){
+    String[] keyPwd = new String[4];
+    int i = 0 ;
+    File keyFile = new File(keyPwdFile);
+    System.out.println("keyFile:"+keyFile.getAbsolutePath());
+    keyFile.eachLine { line ->
+        keyPwd[i++] = line ;
+    }
+    return keyPwd ;
+}
+
+android {
+    signingConfigs {
+        config {
+            String[] keyPwds = readKeyAndPwd("app/keyPwdFile");
+            keyAlias = keyPwds[0]
+            keyPassword  = keyPwds[1]
+            storePassword = keyPwds[2]
+            storeFile file(keyPwds[3])
+        }
+    }
+
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        minSdkVersion 19
+//       applicationId "com.simplelight.app"
+        applicationId "com.huijimuhe.monolog"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            versionNameSuffix 'SecretMessage'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    implementation files('/Users/huaichen/Documents/WorkDir/NewParttimeProject/SecretMessage/libs/GDTUnionSDK.4.15.559.min.jar')
+    implementation project(':andhook-lib-3.2.0')
+    implementation 'com.android.support:support-v4:26.0.0'
+    implementation 'com.google.android.gms:play-services-ads:latest.release'
+}

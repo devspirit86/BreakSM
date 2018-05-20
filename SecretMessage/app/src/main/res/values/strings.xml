@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menutitle">加密短信</string>
+    <string name="app_name">加密短信</string>
+    <string name="menu_send">写密文</string>
+    <string name="menu_read">读密文</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_about">关于我们</string>
+    <string name="key">密银（只支持数字与英文字母）</string>
+    <string name="keyinput">xdstudio</string>
+    <string name="message">信息内容</string>
+    <string name="messageinput">内容</string>
+    <string name="encode_name">加密</string>
+    <string name="decode_name">解密</string>
+    <string name="messagelist">查看</string>
+    <string name="version">chinese</string>
+    <string name="me">*所有者 : XD 工作组  </string>
+    <string name="email">*联系邮箱 : devspirit86@gmail.com </string>
+    <string name="empty">请输入</string>
+    
+    <string name ="about" >关于</string>
+    <string name ="bglabel" >应用背景</string>
+    <string name ="uselabel" >如何使用</string>
+    <string name ="melable" >关于我们</string>
+    <string name ="appbg">目前，短信息内容泄漏、秘密被窃取的现象屡见不鲜，为了减少短信息在传输过程中被泄漏的情况，故开发出“加密短信”此应用。 </string>
+    <string name ="appabout">该应用软件能够对短信息进行加密和解密以保证短信息在传输过程中的安全。通过此软件编辑短信息,在发送短信息之前，请先对短信息进行加密，然后将加密后的信息内容发送给收信人。在收到加密的短信息之后，请运用该软件查看加密内容，然后通过解密，显示正常的短信息内容。</string>
+    <string name ="us">XXXXX devspirit86@gmail.com</string>
+    <string name ="appbglable"><b>背景</b></string>
+    <string name ="appablable"><b>简介</b></string>
+    <string name ="uslable"><b></b></string>
+    
+    <string name ="keydef">默认密银</string>
+    <string name ="keyvalue">000000</string>
+    <string name ="keyabout">设置加密或解密使用的默认密银</string>
+    <string name ="settinglable">设置</string>
+    
+</resources>

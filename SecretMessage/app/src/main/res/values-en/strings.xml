@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menutitle">SECRET MESSAGE</string>
+    <string name="app_name">SECRET MESSAGE</string>
+    <string name="menu_send">Send Message</string>
+    <string name="menu_read">Read Message</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_about">Leave</string>
+    <string name="key">Decode Key(only support Numbers or English letter)</string>
+    <string name="keyinput">xdstudio</string>
+    <string name="message">Message Content</string>
+    <string name="messageinput">XD message content</string>
+    <string name="encode_name">Encode Message</string>
+    <string name="decode_name">Decode Message</string>
+    <string name="messagelist">Message List</string>
+    <string name="version">english</string>
+    <string name="me">*Created By : XD Studio  </string>
+    <string name="email">*Contract Email : xdstudio2008@gmail.com </string>
+    <string name="empty">please input</string>
+    
+    <string name ="about" >About</string>
+    <string name ="bglabel" >App Background</string>
+    <string name ="uselabel" >How to use</string>
+    <string name ="melable" >About Us</string>
+    <string name ="appbg">There are many applications or softwares to ensure that only the owner can access his messaging box to read the message or mail by adding a password to his box, but this tech can’t ensure the message is safe from being read without permission when the message is sending from the owner to the receiver , and can’t ensure the message will not be read by others when this message in his receiver’s messaging box. </string>
+    <string name ="appabout">So this why you need this application, this application will rewrite the content of your message depend on the <u><i><b>key</b></i></u> you provide (this process we call <u><i><b>encode</b></i></u>).and rewrited content will be rewrite back to the original content if the key you provide is the same with the earlier one.(this process we call <u><i><b>decode</b></i></u>). So if you do encode before you send the message , no matter where your message is ,you message only can be read by the people who know the key of this message .</string>
+    <string name ="us">This application is owner by <u><i><b>XD Studio</b></i></u> , If you have any questions about this application you can contract with us.<u><i><b>(Email:xdstudio2008@gmail.com)</b></i></u></string>
+    <string name ="appbglable"><b>.Background</b></string>
+    <string name ="appablable"><b>.Why Secret Message</b></string>
+    <string name ="uslable"><b>.Contract Us</b></string>
+    
+    <string name ="keydef">Default Key</string>
+    <string name ="keyvalue">My Secret Message Key</string>
+    <string name ="keyabout">change the default key use to decode or encode</string>
+    <string name ="settinglable">Setting</string>
+    
+</resources>
